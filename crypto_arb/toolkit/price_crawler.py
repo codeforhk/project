@@ -81,6 +81,12 @@ class PriceCrawler():
             return(price_comparison.head(0))    
     
     def execute(self, notify = False, store_price_history = False, store_arb_history = False):
+        
+        '''
+        Code to execute the project, to get price from the internet, and run the decision engine
+        
+        '''
+        
         sc = slack.WebClient(token = self.config['config']['slack_credentials'])
 
         hb_price = self.hb_get()
