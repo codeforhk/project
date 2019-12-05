@@ -7,6 +7,6 @@ List of currencies:
 
 ## Run program
 1. Go into folder toolkit
-```docker build -t dl-pipeline-finance-airflow .```
+
 2. Run the python file
 ``` python3 run.py```
