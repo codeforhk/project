@@ -1,0 +1,10 @@
+#
+# Copyright (c) 2018-2019 Code For Hong Kong - helloworld@codefor.hk
+#
+# trading arb Configuration file
+
+config:
+    version: '0.1'
+    slack_credentials: 'xoxb-439490759216-834935618999-DmiobTBPHZb1IJk9wUr2wW1C'
+    huobi: 'https://api.huobi.pro/market/depth?symbol={}&type=step1'
+    polonix: 'https://poloniex.com/public?command=returnOrderBook&currencyPair={}&depth=10'
