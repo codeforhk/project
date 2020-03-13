@@ -5,7 +5,7 @@ import pandas as pd
 import io
 import datetime
 import yaml
-import slack
+#import slack
 
 class PriceCrawler():
     
@@ -87,7 +87,7 @@ class PriceCrawler():
         
         '''
         
-        sc = slack.WebClient(token = self.config['config']['slack_credentials'])
+        #sc = slack.WebClient(token = self.config['config']['slack_credentials'])
 
         hb_price = self.hb_get()
         po_price = self.po_get()
